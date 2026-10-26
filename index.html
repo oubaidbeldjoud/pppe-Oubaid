@@ -70,8 +70,9 @@
         </div>
         <div class="about">
             <h2>About Me</h2>
+            <!-- UPDATED: "first-year" -> "second-year"; IT department role/date added from LinkedIn. -->
             <p>
-                I'm Oubaid ellah Beldjoud, a first-year Automation Engineering student at the National Polytechnic School, ranked in the top 2.87% of my preparatory class. I'm passionate about robotics, automation, and innovative engineering projects, and I'm an active IT member of both VIC and IEEE, collaborating on technical challenges and creative solutions.
+                I'm Oubaid ellah Beldjoud, a second-year Automation Engineering student at the National Polytechnic School, ranked in the top 2.87% of my preparatory class. I'm passionate about robotics, automation, embedded systems, and innovative engineering projects, and I'm an active member of the Information Technology Department of both VIC and IEEE (since December 2025), collaborating on technical challenges and creative solutions.
             </p>
             <div class="stats">
                 <div class="stat-item">
@@ -234,6 +235,22 @@
             </div>
         </div>
 
+        <!-- NEW CATEGORY (from LinkedIn / CRTI project). Shown as tags instead of % bars so no skill levels are invented.
+             If you want bars, copy a .skill-item block from another category. -->
+        <div class="skill-category">
+            <h3>🤖 Embedded Systems, Vision & Industrial Communication</h3>
+            <div class="skill-tags glass">
+                <span class="tag">Embedded Systems</span>
+                <span class="tag">Control Systems</span>
+                <span class="tag">Raspberry Pi 5</span>
+                <span class="tag">Python</span>
+                <span class="tag">OpenCV</span>
+                <span class="tag">Modbus TCP</span>
+                <span class="tag">Flask</span>
+                <span class="tag">Web Bluetooth (BLE)</span>
+            </div>
+        </div>
+
         <div class="skill-category">
             <h3>📊 Scientific Computing & Simulation</h3>
             <div class="category-skills">
@@ -294,7 +311,6 @@
                         <div class="skill-progress" style="width:95%"></div>
                     </div>
                 </div>
-
                 <div class="skill-item glass">
                     <div class="skill-header">
                         <span class="skill-name">PowerPoint / Canva</span>
@@ -346,7 +362,7 @@
                         <div class="skill-progress" style="width:75%"></div>
                     </div>
                 </div>
-                 <div class="skill-item glass">
+                <div class="skill-item glass">
                     <div class="skill-header">
                         <span class="skill-name">Adobe After Effects</span>
                         <span class="skill-percentage">65%</span>
@@ -398,6 +414,80 @@
                 <div class="project-buttons">
                     <button class="btn-view" onclick="openProjectModal()">View Project →</button>
                 </div>
+            </div>
+        </div>
+
+        <!-- NEW PROJECT: YSA (from LinkedIn - CRTI internship). Full details are in the Internship section, linked below. -->
+        <div class="project-item">
+            <div class="project-preview">
+                <!-- ADD PHOTO: replace the placeholder div below with:
+                     <img src="ysa-robot.jpg" alt="YSA agricultural sprayer robot">
+                     MULTI-PHOTO GALLERY (optional): add under the img:
+                     <div class="project-gallery">
+                         <img src="ysa-robot-2.jpg" alt="YSA robot detail">
+                         <img src="ysa-robot-3.jpg" alt="YSA robot in test">
+                     </div> -->
+                <div class="photo-placeholder" role="img" aria-label="Photo of the YSA robot (to be added)"><i class="fas fa-camera"></i></div>
+            </div>
+            <div class="project-info">
+                <h3>YSA – Agricultural Sprayer Robot</h3>
+                <div class="project-tags">
+                    <span class="tag">Embedded Systems</span>
+                    <span class="tag">Computer Vision</span>
+                    <span class="tag">Modbus TCP</span>
+                    <span class="tag">CRTI</span>
+                </div>
+                <p>
+                    Design, development, and modernization of the embedded control and autonomous navigation system of "YSA", an agricultural sprayer robot, built with a Raspberry Pi 5, Python/OpenCV AprilTag localization, and Modbus TCP communication with a Schneider PLC. Conducted in pairs with Adel Ben Ali at CRTI (March – April 2026).
+                </p>
+                <div class="project-buttons">
+                    <a href="#internship" class="btn-view">See Internship Details →</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- NEW PROJECT: FAST line follower competition. TO CONFIRM: organizer, year, your role, result. -->
+        <div class="project-item">
+            <div class="project-preview">
+                <!-- ADD PHOTO: replace the placeholder div with <img src="fast-line-follower.jpg" alt="FAST line follower robot">
+                     (optional gallery: see the YSA project above) -->
+                <div class="photo-placeholder" role="img" aria-label="Photo of the FAST line follower robot (to be added)"><i class="fas fa-camera"></i></div>
+            </div>
+            <div class="project-info">
+                <h3>FAST – Line Follower Robot Competition</h3>
+                <div class="project-tags">
+                    <span class="tag">Robotics</span>
+                    <span class="tag">Competition</span>
+                    <span class="tag">Certificate</span>
+                </div>
+                <p>
+                    FAST is a line follower robot competition in which I took part and earned a certificate.
+                    <!-- TO CONFIRM: add organizer, date, what you designed/programmed, and your ranking if any. -->
+                </p>
+                <!-- OPTIONAL certificate link:
+                <div class="project-buttons"><a href="certificates/fast-certificate.pdf" class="btn-view" target="_blank" rel="noopener noreferrer">View Certificate</a></div> -->
+            </div>
+        </div>
+
+        <!-- NEW PROJECT: POLYMAZE 2026. TO CONFIRM: organizer, your role, result. -->
+        <div class="project-item">
+            <div class="project-preview">
+                <!-- ADD PHOTO: replace the placeholder div with <img src="polymaze-2026.jpg" alt="POLYMAZE 2026 autonomous robot"> -->
+                <div class="photo-placeholder" role="img" aria-label="Photo from POLYMAZE 2026 (to be added)"><i class="fas fa-camera"></i></div>
+            </div>
+            <div class="project-info">
+                <h3>POLYMAZE 2026 – Autonomous Robotics</h3>
+                <div class="project-tags">
+                    <span class="tag">Autonomous Robotics</span>
+                    <span class="tag">Competition</span>
+                    <span class="tag">Certificate</span>
+                </div>
+                <p>
+                    Participation in the 2026 edition of POLYMAZE, an autonomous robotics competition, with an autonomous robotics certificate obtained.
+                    <!-- TO CONFIRM: add organizer, what the robot did, your contribution, and result. -->
+                </p>
+                <!-- OPTIONAL certificate link:
+                <div class="project-buttons"><a href="certificates/polymaze-2026-certificate.pdf" class="btn-view" target="_blank" rel="noopener noreferrer">View Certificate</a></div> -->
             </div>
         </div>
     </section>
@@ -455,9 +545,11 @@
         <div class="section-divider"></div>
 
         <div class="internship-container">
+            <!-- ===== SIEMENS (existing) ===== -->
             <div class="internship-intro">
                 <strong>Siemens Algeria</strong> | Industrial Automation Training Programs<br>
-                Two-week intensive training programs in industrial automation and control systems
+                Two-week intensive training programs in industrial automation and control systems<br>
+                Hydra, Algiers · December 2025
             </div>
 
             <div class="internship-card">
@@ -480,18 +572,17 @@
                 </ul>
             </div>
 
-           <div class="internship-photos">
-    <div class="internship-photo">
-        <img src="siemens.jpg" alt="Image 1" class="internship-photo-img">
-    </div>
-    <div class="internship-photo">
-        <img src="siemens1.jpg" alt="Image 2" class="internship-photo-img">
-    </div>
-    <div class="internship-photo">
-        <img src="siemens2.jpg" alt="Image 3" class="internship-photo-img">
-    </div>
-</div>
-
+            <div class="internship-photos">
+                <div class="internship-photo">
+                    <img src="siemens.jpg" alt="Image 1" class="internship-photo-img">
+                </div>
+                <div class="internship-photo">
+                    <img src="siemens1.jpg" alt="Image 2" class="internship-photo-img">
+                </div>
+                <div class="internship-photo">
+                    <img src="siemens2.jpg" alt="Image 3" class="internship-photo-img">
+                </div>
+            </div>
 
             <div class="internship-report">
                 <h3>📄 Internship Report</h3>
@@ -502,6 +593,73 @@
                     <i class="fas fa-download"></i> Download Report
                 </a>
             </div>
+
+            <!-- ===== NEW: CRTI (from LinkedIn) ===== -->
+            <div class="internship-intro internship-group">
+                <strong>Centre de recherche en technologie industrielle (CRTI)</strong> | Intern<br>
+                Chéraga, Algiers · March 2026 – April 2026
+            </div>
+
+            <div class="internship-card">
+                <h3>YSA – Embedded control & autonomous navigation of an agricultural sprayer robot</h3>
+                <ul>
+                    <li>Replaced a heavy PC-based architecture with a Raspberry Pi 5 as the central processing and supervision unit</li>
+                    <li>Developed a Python/OpenCV pipeline for real-time AprilTag detection, pose estimation, and localization</li>
+                    <li>Configured Modbus TCP communication between the Raspberry Pi, a Schneider PLC, and Altivar variable speed drives</li>
+                    <li>Built a Flask web interface with live video for remote supervision, plus a PS4 controller manual-control script</li>
+                    <li>Implemented closed-loop control with continuous odometry updates for trajectory correction</li>
+                    <li>Project conducted in pairs with Adel Ben Ali, in technical collaboration with other project teams</li>
+                </ul>
+            </div>
+
+            <!-- ADD PHOTOS: replace the placeholder with one or more of these (keep each inside its own .internship-photo div):
+                 <div class="internship-photo"><img src="crti-ysa.jpg" alt="YSA robot at CRTI" class="internship-photo-img"></div>
+                 <div class="internship-photo"><img src="crti-ysa-2.jpg" alt="YSA navigation test" class="internship-photo-img"></div> -->
+            <div class="internship-photos internship-photos-compact">
+                <div class="internship-photo">
+                    <span class="internship-photo-placeholder" role="img" aria-label="CRTI photo (to be added)"><i class="fas fa-camera"></i></span>
+                </div>
+            </div>
+
+            <!-- ADD REPORT: uncomment this block, put the PDF in a "reports" folder, and edit the title/label.
+            <div class="internship-report">
+                <h3>📄 CRTI Internship Report</h3>
+                <p style="color: #aaa; margin-bottom: 20px;">Report title / short description here</p>
+                <a href="reports/crti-internship-report.pdf" class="btn-report" target="_blank" rel="noopener noreferrer">
+                    <i class="fas fa-file-pdf"></i> View Report (PDF)
+                </a>
+            </div> -->
+
+            <!-- ===== NEW: ELSEWEDY ELECTRIC (from LinkedIn) ===== -->
+            <div class="internship-intro internship-group">
+                <strong>Elsewedy Electric Algérie</strong> | Summer Intern<br>
+                Aïn Defla · July 2026
+            </div>
+
+            <!-- TO CONFIRM: LinkedIn gives no task description. Add what you did by uncommenting this card:
+            <div class="internship-card">
+                <h3>Title of your main task or department</h3>
+                <ul>
+                    <li>Task or responsibility 1</li>
+                    <li>Task or responsibility 2</li>
+                </ul>
+            </div> -->
+
+            <!-- ADD PHOTOS: same pattern as above, e.g. <div class="internship-photo"><img src="elsewedy-internship.jpg" alt="Elsewedy Electric internship" class="internship-photo-img"></div> -->
+            <div class="internship-photos internship-photos-compact">
+                <div class="internship-photo">
+                    <span class="internship-photo-placeholder" role="img" aria-label="Elsewedy Electric photo (to be added)"><i class="fas fa-camera"></i></span>
+                </div>
+            </div>
+
+            <!-- ADD REPORT: uncomment, add reports/elsewedy-internship-report.pdf, edit title/label.
+            <div class="internship-report">
+                <h3>📄 Elsewedy Electric Internship Report</h3>
+                <p style="color: #aaa; margin-bottom: 20px;">Report title / short description here</p>
+                <a href="reports/elsewedy-internship-report.pdf" class="btn-report" target="_blank" rel="noopener noreferrer">
+                    <i class="fas fa-file-pdf"></i> View Report (PDF)
+                </a>
+            </div> -->
         </div>
     </section>
 
