@@ -70,3 +70,12 @@
         grid-template-columns: 1fr;
     }
 }
+
+/* Projects: keep the new project photos the same size whatever their original proportions */
+.project-preview img[src="ysa.jpg"],
+.project-preview img[src="fast.jpg"],
+.project-preview img[src="polymaze.jpg"] {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
